@@ -1,0 +1,50 @@
+{
+    "name": "slush-generator-test",
+    "description": "A slush generator to help you get started with unit tests",
+    "version": "0.1.0",
+    "homepage": "https://github.com/jacksonhoose/slush-generator-test",
+    "author": {
+        "name": "Jackson Hoose",
+        "email": "jacksonhoose@gmail.com"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/jacksonhoose/slush-generator-test.git"
+    },
+    "bugs": {
+        "url": "https://github.com/jacksonhoose/slush-generator-test/issues"
+    },
+    "licenses": [{
+        "type": "MIT",
+        "url": "https://github.com/jacksonhoose/slush-generator-test/blob/master/LICENSE"
+    }],
+    "main": "slushfile.js",
+    "engines": {
+        "node": ">= 0.10.26",
+        "npm": ">=1.4.3"
+    },
+    "scripts": {
+        "test": "echo \"No tests\""
+    },
+    "devDependences": {
+        "mocha": "~1.14.0",
+        "chai": "~1.8.0"
+    },
+    "dependencies": {
+        "slush": ">=1.0.0",
+        "gulp": "^3.6.2",
+        "gulp-template": "^0.1.1",
+        "gulp-install": "^0.1.4",
+        "gulp-conflict": "^0.1.1",
+        "gulp-rename": "^1.2.0",
+        "underscore.string": "^2.3.3",
+        "inquirer": "^0.4.1",
+        "iniparser": "^1.0.5"
+    },
+    "keywords": [
+        "slushgenerator",
+        "chai",
+        "mocha",
+        "tdd"
+    ]
+}
